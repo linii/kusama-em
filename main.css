@@ -15,12 +15,12 @@ h1 {
 
 h3, h6 {
 	font-family: 'Radley', serif;
-	margin: 100px;
-	text-align: center;
+	margin-left: 200px;
+	text-align: left;
 }
 h3 {
 	color:  blue;
-	font-size : 40px;
+	font-size : 50px;
 }
 
 h6 {
