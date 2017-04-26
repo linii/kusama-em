@@ -1,0 +1,35 @@
+p {
+	margin: 100px;
+	margin-left: 300px;
+	font-family: 'Radley', serif;
+	font-size: 20px;
+	text-align: left;
+}
+
+h1 {
+	font-size: 100px;
+	margin-top: 10px;
+	font-family: 'UnifrakturCook', cursive;
+	text-align: center;
+}
+
+h3, h6 {
+	font-family: 'Radley', serif;
+	margin: 100px;
+	text-align: center;
+}
+h3 {
+	color:  blue;
+	font-size : 40px;
+}
+
+h6 {
+	font-size: 32px;
+}
+
+img {
+	position: 0px;
+	margin: 0px;
+	padding: 0x;
+	width: 100%;
+}
