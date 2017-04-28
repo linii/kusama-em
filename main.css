@@ -10,25 +10,26 @@ p {
 
 .tall-div {
 	margin-top: 300px;
+	height: 1000px;
 }
 
 .image-div {
-    width: 1200px;
+    width: 1000px;
     height: 800px;
 }
 
 .text {
-    margin-left: 700px;
+    margin-left: 650px;
     text-align: left;
     font-family: 'Inconsolata';
 }
 .text p {
     text-align: left;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .text2 {
-    margin-left: 300px;
+    margin-left: 100px;
     text-align: left;
     width: 400px;
     font-family: 'Inconsolata';
@@ -44,7 +45,7 @@ h3 {
 	float: left;
 	width: 100%;
 	font-size : 50px;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 	color: pink;
 }
 
