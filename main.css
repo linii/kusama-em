@@ -1,3 +1,4 @@
+
 div.image-div img {
     float: left;
     width: 600px;
@@ -6,6 +7,53 @@ div.image-div img {
 p {
     color: black;
     float: left;
+    font-family: 'Inconsolata';
+}
+
+body {
+	font-family: 'Inconsolata';
+}
+
+.imgtag img{
+	height: 100%;
+	opacity: 0.6;
+	position: absolute;
+	right: 0px;
+}
+
+.label {
+	position: absolute;
+	font-family: 'Inconsolata';
+	margin: 0;
+	background: orange;
+	opacity: 0.3;
+	color: blue;
+	padding: 2px;
+	font-size: 13px;
+	line-height: 20px;
+	letter-spacing: 2px;
+}
+
+.menu {
+	margin-left: 30%;
+
+}
+
+.desc {
+	margin-left: 20%;
+	font-size:13px;
+	width: 400px;
+
+}
+
+.label:hover {
+	opacity: 0.8;
+	color: white;
+	background: black;
+
+}
+
+.navigation{
 }
 
 .tall-div {
@@ -26,6 +74,13 @@ p {
 .text p {
     text-align: left;
     font-size: 16px;
+}
+
+a:hover, a:visited, a:link, a:active {
+	color: red;
+	opacity: 0.8;
+	text-decoration: none;
+
 }
 
 .text2 {
@@ -61,8 +116,9 @@ h1 {
 	font-size: 100px;
 	color: pink;
 	margin-top: 10px;
-	margin-bottom: 0px;
+	margin-bottom: 30px;
 	margin-right: 50px;
-	font-family: 'UnifrakturCook', cursive;
+	font-family: 'Helveltica', sans-serif;
 	text-align: right;
+	opacity: 0.3;
 }
