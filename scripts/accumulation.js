@@ -16,6 +16,7 @@ function draw() {
 		append(dots, d);
 		i += 2;
 	}
+
 	c++;
 }
 
