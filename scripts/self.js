@@ -6,27 +6,22 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  noCursor();
+  // noCursor();
 }
 
 function draw() {
-	for (var i = 0; i < 10; i++) {
+	for (var i = 0; i < randomGaussian(mouseX/5); i++) {
 		var d = new Dot();
 		d.render();
 	}
 }
 
 function Dot(x, y) {
-	colorMode(RGB, 255, 255, 255, 1);
-	this.sizeX = randomGaussian(10, 1);
-	this.sizeY = randomGaussian(10, 1);
-
-	this.x = random(windowWidth);
-	this.y = random(windowHeight);
 }
 
 Dot.prototype.render = function() {
 	noStroke();
-	image(img, this.x, this.y, this.sizeX, this.sizeY);
-	rotate(PI/randomGaussian(3.0, 1));
+	var pos =  mouseX / 2.5;
+	image(img, mouseX, mouseY, randomGaussian(img.width / pos), randomGaussian(img.height / pos), 0, 0);
+	rotate(PI/randomGaussian(3.0));
 }
