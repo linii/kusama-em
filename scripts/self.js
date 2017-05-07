@@ -18,8 +18,8 @@ function draw() {
 
 function Dot(x, y) {
 	colorMode(RGB, 255, 255, 255, 1);
-	this.sizeX = randomGaussian(3, 1);
-	this.sizeY = randomGaussian(3, 1);
+	this.sizeX = randomGaussian(10, 1);
+	this.sizeY = randomGaussian(10, 1);
 
 	this.x = random(windowWidth);
 	this.y = random(windowHeight);
